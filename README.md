@@ -39,7 +39,7 @@ programs/escrowq32026/
 │   │   ├── take.rs      # Fulfill an escrow
 │   │   └── refund.rs    # Cancel an escrow and reclaim the deposit
 │   ├── state.rs         # Escrow account definition
-│   ├── constants.rs     # constants variables
+│   ├── constants.rs     # PDA seeds and other shared constants
 │   ├── error.rs         # Custom error codes (e.g. EscrowExpired)
 │   └── lib.rs           # Instruction entrypoints
 └── tests/
